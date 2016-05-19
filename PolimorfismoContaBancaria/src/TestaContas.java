@@ -11,7 +11,7 @@ public class TestaContas {
 		cc.deposita(2000);
 		cp.deposita(2000);
 		ap.deposita(2000);
-		c.atualiza(0.01);
+		c.atualiza(0.01); 
 		cc.atualiza(0.01);
 		cp.atualiza(0.01);
 		ap.atualiza(0.01);

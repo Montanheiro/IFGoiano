@@ -8,7 +8,7 @@ public class ContaCorrente extends Conta {
 	
 	public void deposita(double valor){
 		saldo += valor;
-		this.valor = valor;
+		this.valor = valor; 
 	}
 
 }
