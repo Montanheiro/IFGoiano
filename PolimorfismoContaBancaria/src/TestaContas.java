@@ -4,23 +4,26 @@ public class TestaContas {
 	public static void main(String[] args) {
 		Conta c = new Conta();
 		ContaCorrente cc = new ContaCorrente();
-		
 		ContaPoupanca cp = new ContaPoupanca();
+		AplicacaoProgramada ap = new AplicacaoProgramada();
 		
-		c.deposita(1000);
-		cc.deposita(1000);
-		cp.deposita(1000);
+		c.deposita(2000);
+		cc.deposita(2000);
+		cp.deposita(2000);
+		ap.deposita(2000);
 		c.atualiza(0.01);
 		cc.atualiza(0.01);
 		cp.atualiza(0.01);
+		ap.atualiza(0.01);
 		
-		c.saca(1000);
-		cc.saca(1000);
-		cp.saca(1000);
+		c.saca(1000, 0.01);
+		cc.saca(1000, 0.01);
+		cp.saca(1000, 0.01);
+		ap.saca(1000, 0.01);
 		
-		System.out.println("Conta: " + c.getSaldo());
-		System.out.println("CC: " + cc.getSaldo());
-		System.out.println("CP: " + cp.getSaldo());
+		Extrato.imprimeCC(cc.valor, cc.taxajuro, cc.saque, cc.cpmf, cc.getSaldo());
+		Extrato.imprimeCP(cp.valor, cp.taxajuro, cp.saque, cp.cpmf, cp.getSaldo());
+		Extrato.imprimeAP(ap.valor, ap.taxajuro, ap.saque, ap.cpmf, ap.getSaldo());
 	}
 
 }
