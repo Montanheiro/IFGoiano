@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+	
+		final double PI = 3.1456;
+		
+		System.out.println("Informe o valor do raio: ");
+		double raio = Scanner(System.in);
+	}
+}

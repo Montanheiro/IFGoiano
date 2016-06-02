@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project Hello word C ****
+
+make all 
+Building file: ../src/Hello word C.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Hello word C.d" -MT"src/Hello\ word\ C.d" -o"src/Hello word C.o" "../src/Hello word C.c"
+../src/Hello word C.c: In function ‘main’:
+../src/Hello word C.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/Hello word C.c
+ 
+Building target: Hello word C
+Invoking: GCC C Linker
+gcc  -o"Hello word C"  ./src/Hello\ word\ C.o   
+Finished building target: Hello word C
+ 

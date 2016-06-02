@@ -1,0 +1,8 @@
+public class CalcularValorProduto {
+
+	double frete, valorTotalPagar;
+	
+	public void CalcularValorTotal(){
+		
+	}
+}

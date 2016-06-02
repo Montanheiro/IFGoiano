@@ -1,0 +1,20 @@
+
+public class Venda {
+	public static void main(String[] args) {
+		
+		CarrinhoDeCompra CarrinhoDeCompra = new CarrinhoDeCompra();
+		CalcularValorProduto CalcularValorProduto = new CalcularValorProduto();
+		
+		CarrinhoDeCompra.itemCodigo = 1;
+		CarrinhoDeCompra.itemNome = "Sandalia";
+		CarrinhoDeCompra.itemMarca = "Havaiana";
+		CarrinhoDeCompra.itemQuantidade = 2;
+		CarrinhoDeCompra.valorProduto = 12.00;
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="CommitDialog.showUntracked"/>
+	<list key="CommitDialog.authorValues">
+		<item value="Lucas Montanheiro &lt;lucasmontanheiro10@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Lucas Montanheiro &lt;lucasmontanheiro10@gmail.com&gt;"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/Montanheiro/IFGoiano.git"/>
+		<item value="https://github.com/Montanheiro/Poliformismo.git"/>
+		<item value="https://github.com/Montanheiro/IFGoiano"/>
+		<item value="https://github.com/Montanheiro/GratificaoFuncionario.git"/>
+	</list>
+	<section name="GitCreatePatchWizard">
+	</section>
+	<section name="GitCommitMessageComponent">
+	</section>
+	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
+		<item value="628" key="DIALOG_WIDTH"/>
+		<item value="48" key="DIALOG_Y_ORIGIN"/>
+		<item value="642" key="DIALOG_HEIGHT"/>
+		<item value="474" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Droid Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item value="652" key="DIALOG_WIDTH"/>
+		<item value="291" key="DIALOG_Y_ORIGIN"/>
+		<item value="447" key="DIALOG_HEIGHT"/>
+		<item value="458" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Droid Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+</section>

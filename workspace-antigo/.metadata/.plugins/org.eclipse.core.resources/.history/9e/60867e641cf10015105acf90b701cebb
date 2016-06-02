@@ -1,0 +1,13 @@
+public class Reajuste {
+	public static void main(String[] args) {
+		DadosAumento FolhaPagamento = new DadosAumento();
+		
+		FolhaPagamento.ReceberValores("José", "Professor", 3460.00);
+		FolhaPagamento.CalcularReajuste();
+		
+		System.out.println("Funcionaŕio: " + FolhaPagamento.nomeFunc + "\nFunção: " + FolhaPagamento.Funcao + "Salário atual: " + FolhaPagamento.salFunc);
+		
+		
+	}
+
+}

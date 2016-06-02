@@ -1,0 +1,11 @@
+
+public class DadosEnergiaEletrica {
+
+	int NumConta;	
+	double valorKw, quantidadeConsumida;
+
+		public static double CalcularConta(double kw, double consumida){
+		
+		return kw * consumida;
+	}
+}

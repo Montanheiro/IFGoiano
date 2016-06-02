@@ -1,0 +1,6 @@
+
+public class DadosEnergiaEletrica {
+
+	int NumConta;	
+	double valorKw, quantidadeConsumida;
+}

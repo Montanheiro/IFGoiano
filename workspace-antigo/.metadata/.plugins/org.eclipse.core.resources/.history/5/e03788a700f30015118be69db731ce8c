@@ -1,0 +1,19 @@
+public class Principal {
+
+	public static void main(String[] args) {
+	
+		long totalMilisegundos = System.currentTimeMillis();
+		
+		long totalSegundos = totalMilisegundos / 1000;
+		long segundoAtual = totalSegundos % 60;
+		
+		long totalMinutos = totalSegundos / 60;
+		long minutoAtual = totalMinutos % 60;
+				
+		long totalHoras = totalMinutos / 60;
+		long horaAtual = totalHoras / 60;
+		
+		System.out.println(horaAtual + ":" + minutoAtual + ":" + segundoAtual);
+		
+	}
+}

@@ -1,0 +1,14 @@
+
+public class ConsumoEnergia {
+
+	public static void main(String[] args) {
+		
+		DadosEnergiaEletrica GastoDeEnergiaEletrica = new DadosEnergiaEletrica();
+
+		GastoDeEnergiaEletrica
+	}
+
+	public static double CalcularConta(){
+		
+	}
+}

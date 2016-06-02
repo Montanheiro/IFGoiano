@@ -1,0 +1,15 @@
+
+public class VendaAtacado {
+
+	int codigoItem;
+	String DescricaoItem;
+	double valorCusto, valorAtacado, valorVarejo;
+	
+	public void ReceberDados(int codigo, String descricao, double custo){
+		codigoItem = codigo;
+		DescricaoItem = descricao;
+		valorCusto = custo;
+	}
+	public
+	
+}

@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Principal {
+	public static void main(String[] args) {
+	
+		/*digite nome aluno
+		definir numalunos numbimnet
+		com base em nomealuno digite nota
+		calc media
+		exibir ap ou rp*/
+		
+		int alunos = 2, bimestres = 3;
+		
+		Scanner input = new Scanner(System.in);
+		String aluno[] = new String[alunos];
+		double notas[][] = new double[alunos][bimestres];
+		
+		for(int i = 0; i < alunos; ++i){
+			System.out.println("Digite o nome do aluno: ");
+			aluno[i] = input.nextLine();
+			for(int j = 0; j < bimestres; ++j){
+				System.out.println("Digite a nota do aluno no " + (bimestres + 1) + "º bimestre:");
+				notas[i][j] = input.nextDouble();				
+			}
+		}
+		
+		
+		
+	}
+}

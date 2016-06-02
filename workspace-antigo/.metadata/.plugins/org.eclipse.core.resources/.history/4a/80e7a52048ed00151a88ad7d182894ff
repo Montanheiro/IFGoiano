@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+  FILE *arquivo = fopen("/home/lucas/eclipse/tests.txt", "w");
+  fprintf(arquivo,"teste");
+  fclose(arquivo);
+
+  if(arquivo != NULL)
+	  printf("Arquivo criado com sucesso.");
+  else
+	  printf("Não foi possível criar o arquivo.");
+}

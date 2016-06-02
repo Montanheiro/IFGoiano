@@ -1,0 +1,7 @@
+
+public class Produto {
+
+	int codigo;
+	String produto, marca;
+	
+}

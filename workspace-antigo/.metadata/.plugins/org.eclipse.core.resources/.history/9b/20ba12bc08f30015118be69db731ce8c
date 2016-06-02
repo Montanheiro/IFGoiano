@@ -1,0 +1,15 @@
+public class Principal {
+
+	public static void main(String[] args) {
+	
+		int x = 10;
+		
+		x += 5;
+		
+		for(int cont = 0; cont < 3; cont++){
+			System.out.println(cont);
+		}
+		
+		System.out.println(x);
+	}
+}

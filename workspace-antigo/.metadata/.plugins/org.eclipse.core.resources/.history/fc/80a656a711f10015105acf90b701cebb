@@ -1,0 +1,11 @@
+public class CalcularValorProduto {
+
+	double frete, valorTotalPagar;
+	
+	public double CalcularValorTotal(double totalDaCompra){
+		
+		valorTotalPagar = totalDaCompra + frete;
+		
+		return 0;
+	}
+}

@@ -1,0 +1,7 @@
+
+public class DadosAumento {
+	
+	String nomeFunc, Funcao;
+	float salFunc, aumento;
+
+}

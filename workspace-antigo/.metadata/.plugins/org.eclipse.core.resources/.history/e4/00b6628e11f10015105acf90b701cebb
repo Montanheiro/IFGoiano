@@ -1,0 +1,10 @@
+public class CalcularValorProduto {
+
+	double frete, valorTotalPagar;
+	
+	public double CalcularValorTotal(double totalDaCompra){
+		CarrinhoDeCompra CarrinhoDeCompra = new CarrinhoDeCompra();
+		
+		valorTotalPagar = totalDaCompra + frete;
+	}
+}

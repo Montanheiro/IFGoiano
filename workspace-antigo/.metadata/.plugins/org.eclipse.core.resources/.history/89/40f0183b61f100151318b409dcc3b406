@@ -1,0 +1,14 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		Crediario Crediario = new Crediario();
+		Produto Produto = new Produto();
+		
+		
+		Produto.nome = "Sandalia";
+		Produto.marca = "Havaiana"
+	}
+
+}

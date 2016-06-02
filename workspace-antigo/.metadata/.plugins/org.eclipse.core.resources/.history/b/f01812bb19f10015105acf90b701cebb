@@ -1,0 +1,20 @@
+
+public class DadosAumento {
+	
+	String nomeFunc, Funcao;
+	double salFunc, aumento, novoSalario;
+	
+	public double ReceberValores (double salFunc, double aumento, double novoSalario){		
+		
+		if (salFunc <= 600)
+			return 1.2;
+		if (salFunc > 600 && salFunc <= 1500)
+			return 1.15;
+		if (salFunc > 1500)
+			return 1.05;
+	}
+	
+	
+
+	
+}

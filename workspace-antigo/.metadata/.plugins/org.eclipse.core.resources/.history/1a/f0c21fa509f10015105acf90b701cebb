@@ -1,0 +1,26 @@
+import java.text.DecimalFormat; 
+
+public class Salario {
+	public static void main(String[] args) {
+		
+		DecimalFormat df = new DecimalFormat("0.##");
+		DadosFuncionario Funcionario = new DadosFuncionario();
+		
+		Funcionario.nome = "Alberto";
+		Funcionario.funcao = "Vendedor";
+		Funcionario.salarioAtual = 1350.52;
+		Funcionario.CalcularSalario();
+		String dx = df.format(Funcionario.novoSalario);
+		
+		System.out.println("Nome: " + Funcionario.nome + "\nFunção: " + Funcionario.funcao + "\nSalário Atual: " + Funcionario.salarioAtual + "\nNovo Salário: " + dx);
+		
+		Funcionario.nome = "Fernando";
+		Funcionario.funcao = "Gerente";
+		Funcionario.salarioAtual = 3200.53;
+		Funcionario.CalcularSalario();
+		
+		System.out.println("\nNome: " + Funcionario.nome + "\nFunção: " + Funcionario.funcao + "\nSalário Atual: " + Funcionario.salarioAtual + "\nNovo Salário: " + Funcionario.novoSalario);
+		
+	}
+
+}
