@@ -21,10 +21,16 @@ public class Movimentacao extends Contas{
 				"\nCliente: " + getCliente() +
 				"\n=======================================================\n" +
 				"Banco Numero\tNome Banco\tAgência\t\tConta\n" + 
-				getBancoNumero()+ "\t\t" + getNomeBanco() + "\t" + getAgencia() + "\t\t" + getConta() +
-				"\n\nDeposito......: " + deposito +
-				"\nRendimento....: " + rendimento +
-				"\nSaque.........: " + saque +
-				"\nSaldo:........: " + saldo + "\n");
+				getBancoNumero()+ "\t\t" + getNomeBanco() + "\t" + getAgencia() + "\t\t" + getConta());
+		
+		if(deposito > 0)
+			System.out.println("\nDeposito......: " + deposito);
+		if(rendimento > 0)
+			System.out.println("Rendimento....: " + rendimento);
+		if(saque > 0)
+			System.out.println("Saque.........: " + saque);
+		
+		System.out.println("Saldo:........: " + saldo + "\n");
+	
 	}
 }
