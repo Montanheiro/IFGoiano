@@ -20,15 +20,15 @@
 	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
 		<item value="628" key="DIALOG_WIDTH"/>
 		<item value="48" key="DIALOG_Y_ORIGIN"/>
-		<item value="642" key="DIALOG_HEIGHT"/>
 		<item value="474" key="DIALOG_X_ORIGIN"/>
+		<item value="642" key="DIALOG_HEIGHT"/>
 		<item value="1|Droid Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
 		<item value="652" key="DIALOG_WIDTH"/>
 		<item value="291" key="DIALOG_Y_ORIGIN"/>
-		<item value="447" key="DIALOG_HEIGHT"/>
 		<item value="458" key="DIALOG_X_ORIGIN"/>
+		<item value="447" key="DIALOG_HEIGHT"/>
 		<item value="1|Droid Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>
