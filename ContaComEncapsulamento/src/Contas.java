@@ -6,7 +6,8 @@ public class Contas {
 	
 	double deposito, saldo, saque, rendimento;
 
-	public void conta(int bancoNumero, String nomeBanco, String agencia, String cidade, String conta, String tipoConta, String cliente){
+	public void conta(int bancoNumero, String nomeBanco, String agencia,
+			String cidade, String conta, String tipoConta, String cliente){
 		this.bancoNumero = bancoNumero;
 		this.nomeBanco = nomeBanco;
 		this.agencia = agencia;

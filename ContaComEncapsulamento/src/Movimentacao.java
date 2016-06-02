@@ -21,7 +21,8 @@ public class Movimentacao extends Contas{
 				"\nCliente: " + getCliente() +
 				"\n=======================================================\n" +
 				"Banco Numero\tNome Banco\tAgência\t\tConta\n" + 
-				getBancoNumero()+ "\t\t" + getNomeBanco() + "\t" + getAgencia() + "\t\t" + getConta());
+				getBancoNumero()+ "\t\t" + getNomeBanco() +
+				"\t" + getAgencia() + "\t\t" + getConta());
 		
 		if(deposito > 0)
 			System.out.println("\nDeposito......: " + deposito);
