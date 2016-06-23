@@ -1,11 +1,15 @@
 public class Titular extends Cartao{
 	
-	public Titular(){
+	String CPF;
+	
+	public Titular(){ //zerando as variaveis
 		super();
+		CPF = "";
 	}
 	
-	public Titular(String nome, int numero, double limite){ //recebendo por metodo construtor e herdando
+	public Titular(String nome, int numero, double limite, String CPF){ //recebendo por metodo construtor e herdando
 		super(nome, numero, limite);
+		this.CPF = CPF;
 	}
 	
 	private int pontos = 0; //criando varivel protegida, encapsulamento
