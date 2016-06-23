@@ -1,15 +1,15 @@
 public class Titular extends Cartao{
 	
-	String CPF;
+	String cpf;
 	
 	public Titular(){ //zerando as variaveis
 		super();
-		CPF = "";
+		cpf = "";
 	}
 	
-	public Titular(String nome, int numero, double limite, String CPF){ //recebendo por metodo construtor e herdando
+	public Titular(String nome, int numero, double limite, String cpf){ //recebendo por metodo construtor e herdando
 		super(nome, numero, limite);
-		this.CPF = CPF;
+		this.cpf = cpf;
 	}
 	
 	private int pontos = 0; //criando varivel protegida, encapsulamento
@@ -24,6 +24,7 @@ public class Titular extends Cartao{
 	public void verFatura(){ //metodo simples
 		System.out.println("Titular: " + titular + 
 				"\nCartão número: " + numero +
+				"\nCPF: " + cpf +
 				"\nValor da fatura: R$ " + debitos +
 				"\nLimite Disponivel: R$ " + (limite - debitos));
 	}

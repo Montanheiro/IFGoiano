@@ -1,22 +1,22 @@
 public class Adicional extends Cartao{
 	
-	String nomeAdicional;
+	String nomeAdicional; //declarando variaveis
 	int numeroAdicional;
-	String CNPJ;
+	String cnpj;
 	
 	public Adicional(){ //zerando as variaveis
 		super();
 		nomeAdicional = "";
 		numeroAdicional = 0;
-		CNPJ = "";
+		cnpj = "";
 	}
 	
 	public Adicional(String nome, int numero, double limite,
-			String nomeAdicional, int numeroAdicional, String CNPJ){ //recebendo por metodo construtor e herdando
+			String nomeAdicional, int numeroAdicional, String cnpj){ //recebendo por metodo construtor e herdando
 		super(nome, numero, limite);
 		this.nomeAdicional = nomeAdicional;
 		this.numeroAdicional = numeroAdicional;
-		this.CNPJ = CNPJ;
+		this.cnpj = cnpj;
 	}
 	
 	public void verFatura(){ //metodo simples
@@ -24,6 +24,7 @@ public class Adicional extends Cartao{
 				"\nCartão titular número: " + numero +
 				"\nNome adicional: " + nomeAdicional +
 				"\nNúmero do cartão adicional: " + numeroAdicional +
+				"\nCNPJ: " + cnpj +
 				"\nValor da fatura: R$ " + debitos +
 				"\nLimite Disponivel: R$ " + (limite - debitos));
 	}
