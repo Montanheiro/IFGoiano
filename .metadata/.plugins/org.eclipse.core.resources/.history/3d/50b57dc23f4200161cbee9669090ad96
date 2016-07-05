@@ -1,0 +1,17 @@
+package contaBanco;
+import cliente.DadosPessoais;
+
+public class ContaCorrente extends DadosPessoais implements Conta{
+	
+	private int conta;
+	double saldo, lancamento;
+	
+	public void ReceberDados(){
+		
+	}
+	
+	public void CalcularSaldo(){
+		
+	}
+
+}

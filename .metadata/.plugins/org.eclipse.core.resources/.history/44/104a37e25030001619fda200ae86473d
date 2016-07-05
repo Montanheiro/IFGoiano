@@ -1,0 +1,12 @@
+public class Carro {
+	
+	String cor, ano, modelo, nome;
+	
+	public void Carro(String cor, String ano, String modelo, String nome){
+		
+		this.cor = cor;
+		this.ano = ano;
+		this.modelo = modelo;
+		this.nome = nome;		
+	}
+}

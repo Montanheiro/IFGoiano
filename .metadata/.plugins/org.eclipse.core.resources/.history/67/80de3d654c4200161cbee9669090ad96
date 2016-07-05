@@ -1,0 +1,17 @@
+package movimentar;
+import contaBanco.ContaCorrente;
+import contaBanco.ContaPoupanca;
+
+public class LancarDados {
+	
+	public void ContaCorrente(String nome, String cpf, int conta){
+		ContaCorrente.ReceberDados(nome, cpf, conta);
+		
+		ContaCorrente corrente = new ContaCorrente()
+	}
+	
+	public void ContaPoupanca(){
+		
+	}
+
+}

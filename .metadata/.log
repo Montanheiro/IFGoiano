@@ -1100,3 +1100,6 @@ Caused by: org.eclipse.jgit.errors.TransportException: Nothing to push.
 	at org.eclipse.jgit.transport.Transport.push(Transport.java:1238)
 	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
 	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2016-07-05 02:24:21.998
+!MESSAGE Clipboard content is neither a directory path nor a valid git URI

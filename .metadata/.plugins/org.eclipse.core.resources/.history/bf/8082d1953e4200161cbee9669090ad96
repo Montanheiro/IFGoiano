@@ -1,0 +1,16 @@
+package contaBanco;
+
+public class ContaCorrente implements Conta {
+	
+	int conta;
+	double saldo, lancamento;
+	
+	public void ReceberDados(){
+		
+	}
+	
+	public void CalcularSaldo(){
+		
+	}
+
+}

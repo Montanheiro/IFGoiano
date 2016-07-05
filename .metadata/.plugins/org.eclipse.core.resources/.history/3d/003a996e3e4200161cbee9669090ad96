@@ -1,0 +1,5 @@
+package contaBanco;
+
+public interface Conta {
+
+}

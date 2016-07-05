@@ -1,0 +1,8 @@
+package contaBanco;
+
+public interface Conta {
+	
+	void static ReceberDados(String nome, String cpf, int conta);
+	double CalcularSaldo();
+
+}

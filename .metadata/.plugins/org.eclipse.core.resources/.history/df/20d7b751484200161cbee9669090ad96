@@ -1,0 +1,11 @@
+package movimentar;
+import contaBanco.ContaCorrente;
+import contaBanco.ContaPoupanca;
+
+public class LancarDados {
+	
+	public void LancarDados(obj Conta){
+		
+	}
+
+}

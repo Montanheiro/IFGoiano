@@ -1,0 +1,9 @@
+package impressao;
+
+public class ImprimirDados {
+	
+	public void ReceberCalcularImprimir(int conta, double saldo, double lancamentos){
+		System.out.println("");
+	}
+
+}

@@ -1,0 +1,9 @@
+package cliente;
+
+public class DadosPessoais {
+	
+	String nome, cpf;
+	
+	
+
+}

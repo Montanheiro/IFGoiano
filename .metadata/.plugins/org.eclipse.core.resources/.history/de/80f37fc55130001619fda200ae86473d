@@ -1,0 +1,15 @@
+public class Carro {
+	
+	String cor, modelo, nome;
+	int ano;
+	
+	public int Carro(String cor, int ano, String modelo, String nome){
+		
+		this.cor = cor;
+		this.ano = ano;
+		this.modelo = modelo;
+		this.nome = nome;
+		
+		return ano;  
+	}
+}

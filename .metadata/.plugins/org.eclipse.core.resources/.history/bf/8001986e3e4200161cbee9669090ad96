@@ -1,0 +1,8 @@
+package contaBanco;
+
+public class ContaPoupanca {
+	
+	int conta;
+	double saldo, lancamento;
+
+}

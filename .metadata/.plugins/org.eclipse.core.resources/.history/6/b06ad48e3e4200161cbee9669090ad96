@@ -1,0 +1,8 @@
+package contaBanco;
+
+public interface Conta {
+	
+	void ReceberDados();
+	void CalcularDados();
+
+}

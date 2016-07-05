@@ -1,0 +1,17 @@
+package contaBanco;
+import cliente.DadosPessoais;
+
+public class ContaPoupanca extends DadosPessoais implements Conta{
+	
+	int conta;
+	double saldo, lancamento;
+	
+	public void ReceberDados(String nome, String cpf, int conta){
+		
+	}
+	
+	public void CalcularSaldo(){
+		
+	}
+
+}

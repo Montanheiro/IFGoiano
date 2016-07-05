@@ -1,0 +1,9 @@
+package impressao;
+
+public class ImprimirDados {
+	
+	public void ReceberCalcularImprimir(){
+		
+	}
+
+}

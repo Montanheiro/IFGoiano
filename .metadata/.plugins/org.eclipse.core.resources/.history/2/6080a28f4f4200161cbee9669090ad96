@@ -1,0 +1,18 @@
+package movimentar;
+import contaBanco.ContaCorrente;
+//import contaBanco.ContaPoupanca;
+
+public class LancarDados {
+
+	public static void main(String[] args) {
+		
+		ContaCorrente cc = new ContaCorrente();
+		
+		cc.ReceberDados("José Pereira", "111.222.333-44", 438358);
+		cc.setSaldo(1000.00);
+		cc.setLancamento(100.00);
+		cc.ReceberDados(cc.getNome(), cc.getCpf(), cc.getConta());
+		
+	}
+
+}

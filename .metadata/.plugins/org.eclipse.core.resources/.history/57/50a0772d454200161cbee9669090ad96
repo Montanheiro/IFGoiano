@@ -1,0 +1,21 @@
+package contaBanco;
+import cliente.DadosPessoais;
+
+public class ContaCorrente extends DadosPessoais implements Conta{
+	
+	@SuppressWarnings("unused")
+	private int conta;
+	@SuppressWarnings("unused")
+	private double saldo, lancamento;
+		
+	public void ReceberDados(String nome, String cpf, int conta){
+		this.setNome(nome);
+		this.setCpf(cpf);
+		this.conta = conta;
+	}
+	
+	public void CalcularSaldo(){
+		
+	}
+
+}
