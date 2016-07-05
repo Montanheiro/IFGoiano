@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="SynchronizeViewSettings">
-		<item value="false" key="linkWithEditor"/>
-		<item value="1464828783738" key="lastactiveparticipant_sec_id"/>
-		<item value="org.eclipse.egit.ui.modelCompareParticipant" key="lastactiveparticipant_id"/>
-		<section name="org.eclipse.egit.ui.modelCompareParticipant.1464828783738">
-		</section>
-	</section>
 	<section name="ConfigureProjectWizard">
 		<item value="org.eclipse.egit.ui.internal.sharing.SharingWizard" key="selectedWizardId"/>
+	</section>
+	<section name="SynchronizeViewSettings">
+		<item value="1467682823833" key="lastactiveparticipant_sec_id"/>
+		<item value="org.eclipse.egit.ui.modelCompareParticipant" key="lastactiveparticipant_id"/>
+		<item value="false" key="linkWithEditor"/>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1467682823833">
+		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1464828783738">
+		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1464829251477">
+		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1467601260552">
+		</section>
+		<section name="org.eclipse.egit.ui.modelCompareParticipant.1467573966368">
+		</section>
+	</section>
+	<section name="ImportPSFDialog">
+		<item value="/home/lucas/Documentos/bkpeclipse/projectSet.psf" key="previous"/>
+		<list key="filenames">
+			<item value="/home/lucas/Documentos/bkpeclipse/projectSet.psf"/>
+		</list>
 	</section>
 </section>

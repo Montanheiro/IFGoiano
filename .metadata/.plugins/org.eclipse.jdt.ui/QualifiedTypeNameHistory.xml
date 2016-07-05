@@ -6,4 +6,10 @@
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="dadosPessoais.Dados"/>
+<fullyQualifiedTypeName name="cliente.DadosPessoais"/>
+<fullyQualifiedTypeName name="contaBanco.ContaCorrente"/>
+<fullyQualifiedTypeName name="contaBanco.ContaPoupanca"/>
+<fullyQualifiedTypeName name="impressao.ImprimirDados"/>
 </qualifiedTypeNameHistroy>

@@ -2,26 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="295" key="DIALOG_WIDTH"/>
-		<item value="99" key="DIALOG_Y_ORIGIN"/>
-		<item value="539" key="DIALOG_X_ORIGIN"/>
+		<item value="92" key="DIALOG_Y_ORIGIN"/>
 		<item value="408" key="DIALOG_HEIGHT"/>
+		<item value="896" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Droid Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="" key="selection"/>
+		<item value="sistema" key="selection"/>
 		<list key="findhistory">
-			<item value="localhost"/>
-			<item value="get"/>
-			<item value="parentes"/>
-			<item value="ImprimirDados"/>
-			<item value="objParentes"/>
-			<item value="calculo"/>
-			<item value="private"/>
+			<item value="sistema"/>
+			<item value="fis"/>
+			<item value="/home/lucas/Documentos/IF Goiano/Ana Maria/html//"/>
+			<item value="fileExists"/>
+			<item value="FileNotFoundException"/>
+			<item value="FileInputStream"/>
+			<item value="index"/>
+			<item value="download"/>
 		</list>
 		<list key="replacehistory">
 			<item value="desconto"/>

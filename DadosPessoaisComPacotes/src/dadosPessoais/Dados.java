@@ -1,6 +1,6 @@
 package dadosPessoais;
 
-public class Dados {
+public class Dados implements Pessoa {
 
 	String nome, telefone, cpf;
 	

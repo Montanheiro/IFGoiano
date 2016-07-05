@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="ExternalProjectImportWizard">
-		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 	</section>
 	<section name="ResourceNavigator">
 		<item value="" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
@@ -12,5 +12,7 @@
 		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 		</list>
+	</section>
+	<section name="BasicNewProjectResourceWizard">
 	</section>
 </section>

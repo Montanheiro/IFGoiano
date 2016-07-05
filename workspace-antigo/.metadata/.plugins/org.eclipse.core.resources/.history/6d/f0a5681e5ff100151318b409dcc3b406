@@ -1,9 +1,0 @@
-
-public class Crediario {
-
-	double valor, parcelas;
-	
-	public double Recebe(double valor, double parcelas){
-		
-	}
-}
