@@ -1,13 +1,12 @@
 package calcularAreaComodos;
 import calcularOutrasAreas.CalcularDemaisAreas;
 
-public class CalcularAreaTodosComodos extends CalcularDemaisAreas {
+public class CalcularAreaTodosComodos extends CalcularDemaisAreas implements Area{
 	
 	protected double sala, quarto, cozinha;
 	
 	public void sala(double comprimento, double altura){
 		sala = comprimento * altura;
-		System.out.println(varanda);
 	}
 	public void quarto(double comprimento, double altura){
 		quarto = comprimento * altura;
@@ -17,6 +16,3 @@ public class CalcularAreaTodosComodos extends CalcularDemaisAreas {
 	}
 
 }
-
-
-//efetua o calculo da sala, quarto e cozinha, pois os mesmos tem tamanho diferentes. 

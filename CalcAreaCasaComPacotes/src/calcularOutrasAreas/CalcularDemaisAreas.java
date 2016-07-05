@@ -1,6 +1,6 @@
 package calcularOutrasAreas;
 
-public class CalcularDemaisAreas {
+public class CalcularDemaisAreas implements Area {
 	
 	protected double varanda, areaServico, despensa;
 	
@@ -15,5 +15,3 @@ public class CalcularDemaisAreas {
 	}
 
 }
-
-

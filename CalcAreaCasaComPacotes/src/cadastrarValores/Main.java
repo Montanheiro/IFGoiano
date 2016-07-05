@@ -8,8 +8,8 @@ public class Main {
 		CalcularTotalArea casa = new CalcularTotalArea();	
 		
 		casa.sala(20, 10);
-		casa.quarto(8, 4);
-		casa.quarto(9,3);
+		casa.quarto(8.2, 4);
+		casa.quarto(9.5,3);
 		casa.cozinha(10, 5);
 		casa.varanda(15, 5);
 		casa.areaServico(20, 10);
