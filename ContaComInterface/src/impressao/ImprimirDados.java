@@ -2,7 +2,7 @@ package impressao;
 
 public class ImprimirDados {
 	
-	public static void ReceberCalcularImprimir(int conta, double saldo, double lancamento){
+	public static void receberCalcularImprimir(int conta, double saldo, double lancamento){
 		System.out.println("EXTRATO DE CONTA" +
 				"\nConta: " + conta +
 				"\nSaldo Anterior: " + saldo +

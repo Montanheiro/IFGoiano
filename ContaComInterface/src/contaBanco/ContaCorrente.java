@@ -6,7 +6,7 @@ public class ContaCorrente extends DadosPessoais implements Conta {
 	private int conta;
 	private double saldo, lancamento;
 		
-	public void ReceberDados(String nome, String cpf, int conta){
+	public void receberDados(String nome, String cpf, int conta){
 		setNome(nome);
 		setCpf(cpf);
 		this.conta = conta;
@@ -30,7 +30,7 @@ public class ContaCorrente extends DadosPessoais implements Conta {
 		return saldo;
 	}
 	
-	public double CalcularSaldo(){
+	public double calcularSaldo(){
 		return lancamento + saldo;
 	}
 }

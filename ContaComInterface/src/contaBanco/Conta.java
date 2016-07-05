@@ -2,7 +2,7 @@ package contaBanco;
 
 public interface Conta {
 	
-	void ReceberDados(String nome, String cpf, int conta);
-	double CalcularSaldo();
+	void receberDados(String nome, String cpf, int conta);
+	double calcularSaldo();
 
 }
