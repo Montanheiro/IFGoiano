@@ -1076,3 +1076,27 @@ org.eclipse.core.commands.ExecutionException: No selection found while executing
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+
+!ENTRY org.eclipse.egit.core 4 0 2016-07-05 01:45:08.312
+!MESSAGE An exception occurred during push on URI https://github.com/Montanheiro/IFGoiano.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1238)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:189)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:167)
+	at org.eclipse.egit.ui.internal.push.SimpleConfigurePushDialog$17.run(SimpleConfigurePushDialog.java:592)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.egit.core 4 0 2016-07-05 01:45:10.939
+!MESSAGE An exception occurred during push on URI https://github.com/Montanheiro/IFGoiano.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:169)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:167)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:229)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1238)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158)
+	... 4 more
