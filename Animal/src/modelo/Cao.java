@@ -2,6 +2,10 @@ package modelo;
 
 public class Cao extends Mamifero{
 
+	public Cao(String nomeAnimal) {
+		super(nomeAnimal);
+	}
+
 	public void abaneRabo(){
 		System.out.println("Abanando o rabo!");
 	}
@@ -11,7 +15,8 @@ public class Cao extends Mamifero{
 		
 		System.out.println("Au au!");	
 		
-		MeuPlayer.reproduza("dog.wav");
+		MeuPlayer ipad = new MeuPlayer("dog.wav");
+		ipad.start();
 	}
 
 }
