@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Atividade 18</title>
+	<script type="text/javascript">
+		
+		function gerarTabela() {
+			recuperarValores();
+			criarTabela();
+		}
+
+		function recuperarValores() {
+			var valor1 = document.getElementById("valor1").value;
+			var valor2 = document.getElementById("valor2").value;
+		}
+
+		function criarTabela() {
+					
+			let qtdLinhas = 4;
+			let qtdColunas = 2;
+			var operacoes = ["+", "*", "-", "%"];
+
+			let tabela = document.createElement("TABLE");
+
+			for (let j = 0; j < qtdLinhas; j++) {
+
+				var linha = document.createElement("TR"); 
+
+				for (let i = 0; i < qtdColunas; i++) {
+					
+					var saida = valor1.value + " " + operacoes[j] + " " + valor2.value;
+					//verifica se é impar ou par para saber qual lado da coluna está inserindo
+					if (i%2) { //par direita
+						saida = eval(saida);
+					}
+
+					var conteudo = document.createTextNode(saida)
+					var coluna = document.createElement("TD");
+					coluna.appendChild(conteudo); //cria a coluna
+					linha.appendChild(coluna);
+				}
+
+				tabela.appendChild(linha);
+			}
+
+			tabela.setAttribute("border", "1");
+			let tagResultado = document.getElementById('resultado');
+			tagResultado.appendChild(tabela);
+		}
+
+	</script>
+</head>
+<body>
+	<input type="number" name="valor1" id="valor1">
+	<input type="number" name="valor2" id="valor2">
+	<button type="button" onclick="gerarTabela()" >Calcular</button>
+
+	<p id="resultado"></p>
+</body>
+</html>
